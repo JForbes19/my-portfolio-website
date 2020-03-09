@@ -1,0 +1,200 @@
+/***** BASE STYLES *****/
+
+body {
+   font-family: 'Source Sans Pro';'Nanum Gothic',
+}
+
+#about {
+    height: 500px;
+}
+
+#work {
+    height: 900px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+
+}
+
+.half-width{
+    width:600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+ #image-header {
+    height: 800px;
+    background: url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-size: cover;
+}
+
+#image-header h1 { 
+    padding: 0px 0px 40px 70px;
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    color: #06464d; 
+    float: left;
+}
+
+#image-header nav {
+  float:right;
+     padding: 50px 40px 40px 0px;
+}
+#image-header nav ul li {
+    display: inline-block;
+   
+}
+#image-header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #06464d;
+    padding-left: 40px; 
+}
+
+#image-header h2 {
+
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    color:#06464d;
+    font-size: 40px;
+    float: left;
+    padding-left: 25px;
+}
+
+#image-header h2 span {
+    color: #f1d833;
+}
+
+#about {
+    background-color: #06464d;
+    
+}
+
+#about h2 {
+   font-family: 'Nanum Gothic';
+    font-size:25pt;
+    padding-left:45px;
+    text-align: center;
+    padding-top: 45px;
+    color: #ffff66;
+}
+
+#about img {
+    height: 300px;
+    float: left;
+    padding: 20px 110px 20px 110px;
+}
+#about p {
+    height: 300px;
+    float: left;
+    padding: 20px 40px 20px 110px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+    line-height: 31px;
+    color: white;
+      
+}
+
+#work{
+    background:#d6d1cd;
+}
+
+#work h2 {
+   font-family: 'Nanum Gothic';
+    font-size:25pt;
+    text-align: center;
+    padding: 50px 0px 0px 50px;
+    color: #06464d;
+}
+
+#work img {
+    height: 300px;
+    padding: 40px 50px 10px 80px;
+    float:left;
+    
+}
+
+#work .jubilee {
+    float:left;
+}
+
+#work .portfolio {
+    float: right;
+    padding: 40px 120px 10px 120px;
+    font-size: 22px;
+    font-family: 'Nanum Gothic';
+    line-height: 31px; 
+    width: 400px;
+    color: #06464d;
+    
+}
+
+#work .rouge {
+    clear:both;
+}
+
+#contact {
+    background: #06464d ;
+}
+
+#contact h2 {
+    font-family:'Nanum Gothic';
+    font-size: 32px;
+    text-align: center;
+    color: #f1d833;
+    padding: 50px 0px 0px 110px
+}
+
+#contact .third-width {
+    font-family:'Nanum Gothic';
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    color: #dddad5;
+}
+ 
+
+#resume {
+    font-family: 'Source Sans Pro';
+    padding: 20px;
+    background: #d6d1cd;
+    color: #06464d;
+    border-width: 20px;
+    border-color: #f1d833;
+    border-style: solid;
+}
+#resume header {
+    font-family: 'Source Sans Pro';
+    color: #f1d833;
+    font-weight: 800;
+}
+#resume h3 {
+    text-decoration: underline;
+    text-align: center;
+    color: #06464d;
+    padding: 20px;
+}
+
+#resume h4 {
+    font-weight: 700;
+}
+
+#resume span {
+    font-style: italic;
+    font-weight: 600;    
+}
